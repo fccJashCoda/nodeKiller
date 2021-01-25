@@ -30,7 +30,7 @@ def seekAndDestroy():
 seekAndDestroy()
 
 print(last_target)
-if count == 1:
+if count > 1:
     print(str(count) + " targets deleted!")
 elif count == 1:
     print(str(count) + 'target deleted!')
